@@ -3,3 +3,4 @@ WORKDIR /app
 COPY . .
 RUN pip install requests Flask
 CMD ["python", "app.py"]
+
